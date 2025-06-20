@@ -8,7 +8,7 @@ Welcome to the **EchoBlade RHCSA 9.6 Lab Kit** — designed for high-speed maste
 **AlmaLinux 9.6** in **Proxmox VE**.
 
 > 📦 Version: RHCSA Target: RHEL 9.x
-> 💻 Platform: Proxmox VE 8.x  
+> 💻 Platform: Proxmox VE 8.x 
 > 🧰 Features: Full CLI + Cockpit support  
 > 🧬 *Project-Matrix™ DNA: Professionalism + Readability + Repo Hygiene*
 

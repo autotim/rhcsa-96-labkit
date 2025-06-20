@@ -74,7 +74,7 @@ systemctl enable --now rsyslog
 
 ---
 
-## 🗃️ Included Lab Modules
+## 🗃️ Included Lab Modules 
 
 | Module     | File                      | Tasks Covered                              |
 |------------|---------------------------|--------------------------------------------|

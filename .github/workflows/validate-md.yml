@@ -9,12 +9,13 @@ on:
       - '**.md'
 
 jobs:
-  markdown-lint:
-    name: Markdown Lint
+  markdownlint:
+    name: Lint Markdown Files
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -25,4 +26,4 @@ jobs:
         run: npm install -g markdownlint-cli
 
       - name: Lint Markdown files
-        run: markdownlint '**/*.md'
+        run: markdownlint '**/*.md' -c .markdownlint.yml

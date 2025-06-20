@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Author: autotim 
+# Author: autotim
 # Purpose: Test Bash Lint with ShellCheck
 
 set -euo pipefail

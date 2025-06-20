@@ -49,7 +49,7 @@ lvextend -L +1G /dev/labvg/datavol
 xfs_growfs /data
 ```
 
-## 📦 Task 7: Create and Use an LVM Snapshot
+## 📦 Task 7: Create and Use an LVM Snapshot 
 
 ```bash
 lvcreate -s -L 500M -n datavol_snap /dev/labvg/datavol

@@ -29,11 +29,11 @@ You’re **battle-ready** for the RHCSA exam.
 ---
 
 ## 🧬 Project-Matrix™ DNA
+
 > Professionalism + Readability + Repo Hygiene = 🧬 Project-Matrix™ DNA
 
 If you’ve cloned this, forked this, or walked through it:  
 **You’re sharper now.** And more than ready.
-
 
 > 💾 Repo Maintainer: [autotim](https://github.com/autotim)  
 

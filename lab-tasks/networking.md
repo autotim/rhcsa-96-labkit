@@ -4,7 +4,7 @@
 
 This module focuses on key networking tasks in RHCSA 9.x using AlmaLinux 9.6, especially via `nmcli` and `firewalld`.
 
-> 🎯 Focus: Interface management, static IP config, hostname, firewalld zones.
+> 🎯 Focus: Interface management, static IP config, hostname, firewalld zones. 
 
 ---
 

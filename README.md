@@ -37,7 +37,7 @@ Welcome to the **EchoBlade RHCSA 9.6 Lab Kit** — designed for high-speed maste
 
 ---
 
-## 📥 Installation Notes
+## 📥 Installation Notes 
 
 1. Boot from `AlmaLinux-9.6-x86_64-dvd.iso`
 2. During installation:

@@ -141,3 +141,17 @@ systemctl enable --now rsyslog
 Once ISO is installed, and `setup.sh` is run:
 
 > 💻 You’ll have a full RHCSA-ready system with CLI + Cockpit, networking, storage, SELinux, and all core services.
+
+---
+
+## 📂 lab-tasks/
+
+Each file below contains guided steps, command references, and verification tips.
+
+* **lab-tasks/storage.md** – Logical Volume Management, XFS, mounting, snapshots
+* **lab-tasks/selinux.md** – SELinux enforcing, policies, contexts, audit logs
+* **lab-tasks/networking.md** – Static IP config, `nmcli`, DNS, firewalld zones
+* **lab-tasks/users.md** – User management, password rules, ACLs, sudo
+
+---
+

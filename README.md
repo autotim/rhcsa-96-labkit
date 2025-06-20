@@ -1,8 +1,8 @@
 # rhcsa-96-labkit
 
-![Markdown Lint](https://github.com/autotim/rhcsa-96-labkit/actions/workflows/validate-md.yml/badge.svg)[![Lint status](https://github.com/autotim/rhcsa-96-labkit/actions/workflows/validate-md.yml/badge.svg)](https://github.com/autotim/rhcsa-96-labkit/actions/workflows/validate-md.yml)
-![YAML Lint](https://github.com/autotim/rhcsa-96-labkit/actions/workflows/validate-yaml.yml/badge.svg)
-![Bash Lint](https://github.com/autotim/rhcsa-96-labkit/actions/workflows/validate-bash.yml/badge.svg)
+[![Markdown Lint](https://github.com/autotim/rhcsa-96-labkit/actions/workflows/validate-md.yml/badge.svg)](https://github.com/autotim/rhcsa-96-labkit/actions/workflows/validate-md.yml)
+[![YAML Lint](https://github.com/autotim/rhcsa-96-labkit/actions/workflows/validate-yaml.yml/badge.svg)](https://github.com/autotim/rhcsa-96-labkit/actions/workflows/validate-yaml.yml)
+[![Bash Lint](https://github.com/autotim/rhcsa-96-labkit/actions/workflows/validate-bash.yml/badge.svg)](https://github.com/autotim/rhcsa-96-labkit/actions/workflows/validate-bash.yml)
 
 Welcome to the **EchoBlade RHCSA 9.6 Lab Kit** — designed for high-speed mastery of the RHCSA exam using
 **AlmaLinux 9.6** in **Proxmox VE**.

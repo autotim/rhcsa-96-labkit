@@ -76,12 +76,12 @@ systemctl enable --now rsyslog
 
 ## 🗃️ Included Lab Modules
 
-| Module     | File                    | Tasks Covered                              |
-|------------|-------------------------|--------------------------------------------|
-| Storage    | `lab-tasks/storage.md`  | LVM creation, resizing, mounting, XFS grow |
-| SELinux    | `lab-tasks/selinux.md`  | Policies, contexts, troubleshooting        |
+| Module     | File                      | Tasks Covered                              |
+|------------|---------------------------|--------------------------------------------|
+| Storage    | `lab-tasks/storage.md`    | LVM creation, resizing, mounting, XFS grow |
+| SELinux    | `lab-tasks/selinux.md`    | Policies, contexts, troubleshooting        |
 | Networking | `lab-tasks/networking.md` | `nmcli`, static IP, firewalld zones        |
-| Users      | `lab-tasks/users.md`    | ACLs, user/group management, sudoers       |
+| Users      | `lab-tasks/users.md`      | ACLs, user/group management, sudoers       |
 
 ---
 
@@ -144,8 +144,8 @@ systemctl enable --now rsyslog
 
 Once ISO is installed, and `setup.sh` is run:
 
-> 💻 You’ll have a full RHCSA-ready system with CLI + Cockpit, networking, storage,
-SELinux, and all core services.
+> 💻 You’ll have a full RHCSA-ready system with CLI + Cockpit, networking, storage,  
+> SELinux, and all core services.
 
 ---
 
@@ -157,5 +157,3 @@ Each file below contains guided steps, command references, and verification tips
 - **lab-tasks/selinux.md** – SELinux enforcing, policies, contexts, audit logs
 - **lab-tasks/networking.md** – Static IP config, `nmcli`, DNS, firewalld zones
 - **lab-tasks/users.md** – User management, password rules, ACLs, sudo
-
----

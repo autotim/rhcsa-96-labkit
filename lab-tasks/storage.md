@@ -2,7 +2,7 @@
 
 ## 🧱 RHCSA Storage Lab
 
-This module walks through the essential storage tasks covered in the RHCSA 9.x exam using AlmaLinux 9.6.
+This module walks through the essential storage tasks covered in the RHCSA 9.x exam using AlmaLinux 9.6. 
 
 > 🎯 Focus: LVM, XFS, `/etc/fstab`, and snapshot management.
 

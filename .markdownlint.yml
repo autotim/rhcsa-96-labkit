@@ -1,5 +1,4 @@
-MD013:
-  line_length: false
+MD013: false
 MD009:
   br_spaces: 2
   strict: false

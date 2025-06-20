@@ -82,4 +82,4 @@ lvremove /dev/labvg/datavol_snap
 
 ---
 
-**Next:** [SELinux Lab »](lab-tasks/selinux.md)
+**Next:** [SELinux Lab »](selinux.md)

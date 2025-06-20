@@ -2,7 +2,7 @@
 
 ## 🔐 RHCSA SELinux Lab
 
-This module contains essential SELinux tasks tested in the RHCSA 9.x exam using AlmaLinux 9.6.
+This module contains essential SELinux tasks tested in the RHCSA 9.x exam using AlmaLinux 9.6. 
 
 > 🎯 Focus: SELinux modes, context management, troubleshooting denials.
 

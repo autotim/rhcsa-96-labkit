@@ -2,7 +2,7 @@
 
 ## 🔐 RHCSA User Management Lab
 
-This module covers user and group administration tasks required for RHCSA 9.x certification.
+This module covers user and group administration tasks required for RHCSA 9.x certification. 
 
 > 🎯 Focus: User creation, password policies, ACLs, sudo, group permissions.
 

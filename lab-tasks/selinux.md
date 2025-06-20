@@ -91,4 +91,4 @@ semodule -i mypol.pp
 
 ---
 
-**Next:** [Networking Lab »](lab-tasks/networking.md)
+**Next:** [Networking Lab »](networking.md)

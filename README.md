@@ -153,7 +153,7 @@ Once ISO is installed, and `setup.sh` is run:
 
 Each file below contains guided steps, command references, and verification tips.
 
-- **lab-tasks/storage.md** – Logical Volume Management, XFS, mounting, snapshots
-- **lab-tasks/selinux.md** – SELinux enforcing, policies, contexts, audit logs
-- **lab-tasks/networking.md** – Static IP config, `nmcli`, DNS, firewalld zones
-- **lab-tasks/users.md** – User management, password rules, ACLs, sudo
+- [**lab-tasks/storage.md**](https://github.com/autotim/rhcsa-96-labkit/blob/main/lab-tasks/storage.md) – Logical Volume Management, XFS, mounting, snapshots
+- [**lab-tasks/selinux.md**](https://github.com/autotim/rhcsa-96-labkit/blob/main/lab-tasks/selinux.md) – SELinux enforcing, policies, contexts, audit logs
+- [**lab-tasks/networking.md**](https://github.com/autotim/rhcsa-96-labkit/blob/main/lab-tasks/networking.md) – Static IP config, `nmcli`, DNS, firewalld zones
+- [**lab-tasks/users.md**](https://github.com/autotim/rhcsa-96-labkit/blob/main/lab-tasks/users.md) – User management, password rules, ACLs, sudo

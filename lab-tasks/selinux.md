@@ -58,7 +58,7 @@ chcon -t httpd_sys_content_t /index.html
 
 ---
 
-## 🕵️ Task 8: Troubleshoot Denials Using Logs
+## 🕵️ Task 8: Troubleshoot Denials Using Logs 
 
 ```bash
 ausearch -m avc -ts recent

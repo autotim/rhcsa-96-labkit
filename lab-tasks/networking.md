@@ -83,4 +83,4 @@ firewall-cmd --list-all --zone=public
 
 ---
 
-**Next:** [User Management Lab »](lab-tasks/users.md)
+**Next:** [User Management Lab »](users.md)

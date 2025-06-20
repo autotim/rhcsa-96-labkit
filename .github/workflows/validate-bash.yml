@@ -1,23 +1,37 @@
-name: Validate Bash Scripts
+name: Bash Lint
 
 on:
   push:
     paths:
       - '**.sh'
+      - '.github/workflows/validate-bash.yml'
   pull_request:
     paths:
       - '**.sh'
 
 jobs:
-  bash-lint:
-    name: ShellCheck
+  shellcheck-and-shfmt:
+    name: ShellCheck & shfmt
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
 
-      - name: Install ShellCheck
-        run: sudo apt-get install -y shellcheck
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install ShellCheck & shfmt
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y shellcheck
+          curl -sSLo shfmt https://github.com/mvdan/sh/releases/download/v3.7.0/shfmt_v3.7.0_linux_amd64
+          chmod +x shfmt
+          sudo mv shfmt /usr/local/bin/
 
       - name: Run ShellCheck
-        run: shellcheck $(find . -type f -name '*.sh')
+        run: |
+          echo "Running ShellCheck..."
+          find . -type f -name '*.sh' -exec shellcheck {} +
+
+      - name: Run shfmt
+        run: |
+          echo "Running shfmt formatting check..."
+          find . -type f -name '*.sh' -exec shfmt -d {} +
